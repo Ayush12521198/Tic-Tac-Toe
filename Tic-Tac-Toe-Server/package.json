@@ -1,7 +1,12 @@
 {
+  "scripts": {
+    "start": "node server.js", // Use 'node' for production
+    "dev": "nodemon server.js" // Use 'nodemon' for local development
+  },
   "dependencies": {
-  
-    "nodemon": "^3.0.3",
     "socket.io": "^4.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
   }
 }
